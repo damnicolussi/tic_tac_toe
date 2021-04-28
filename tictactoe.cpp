@@ -29,7 +29,7 @@ void print(int m[3][3]){
 void play(int m[3][3], int g){
    int x,y;
    do{
-   	if(g==1)  		cout<<"'X' Where do you want to place your token?"<<endl;
+   	if(g==1)  	cout<<"'X' Where do you want to place your token?"<<endl;
    	else if(g==2) 	cout<<"'0' Where do you want to place your token?"<<endl;
     cout<<"row: "; cin>>x;
 	cout<<"column: "; cin>>y;
@@ -67,7 +67,7 @@ int main(){
    cout<<"|   |    |  |___      |   |   | |___     |   |___| |___ |"<<endl;
    cout<<"|                     C++ VERSION                       |"<<endl;
    cout<<"|                                                       |"<<endl;
-   cout<<"|         source code: github.com/damnicolussi          |"<<endl;
+   cout<<"|    source code: github.com/damnicolussi/tic_tac_toe   |"<<endl;
    cout<<"+-------------------------------------------------------+"<<endl;
    cout<<endl;
    
@@ -76,12 +76,12 @@ int main(){
    print(m);
    
    do{
-   	play(m, player);  
-   	print(m);
-   	if(player==1) player=2; else player=1; 
-   	winner=win(m);
+       play(m, player);  
+       print(m);
+       if(player==1) player=2; else player=1; 
+       winner=win(m);
     
-	plays++;
+       plays++;
    }while(plays<9 and winner==0);
  
    
