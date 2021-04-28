@@ -53,6 +53,6 @@ column: {y}
 
 ## Useful Links
 * This Repository: https://github.com/damnicolussi/tic_tac_toe/
-* License: https://github.com/damnicolussi/tic_tac_toe/blob/main/license
+* License: https://github.com/damnicolussi/tic_tac_toe/blob/main/LICENSE
 
 *If you find any issues or do you have any suggestion please create a pull request or report an issue*
