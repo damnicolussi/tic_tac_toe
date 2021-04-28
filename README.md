@@ -5,7 +5,7 @@
 Easy version of "Tic Tac Toe" in C++
 
 ## How to Use It
-* Download the file [`tic_tact toe.cpp`](https://github.com/damnicolussi/tic_tact_toe/blob/main/tic_tac_toe.cpp)
+* Download the file [`tictacttoe.cpp`](https://github.com/damnicolussi/tic_tact_toe/blob/main/tictactoe.cpp)
 * Execute the code and follow the instruction you see on the screen
 * Call a Friend, Play and Have Fun!
 
